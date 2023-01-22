@@ -1,0 +1,70 @@
+CS22120 Project: Group 10
+
+Meeting: Weekly project meeting - Tutorial 6
+
+Persons present:
+
+Shipman, Richard    rcs 
+Clive, Alexander	alc72
+Duda, Piotr pid8
+Griffith, Keean	keg21
+Ladds, Isaac	isl7
+Lugg, Joshua	jol66
+Szpak, Bartosz Tomasz	bas22
+Zitoun, Ahmed	ahz1
+Kalyanaraman, Tarunsundar	tak17
+Palma Arroyo, Juan Manuel	jmp16
+
+Date and Place of meeting: 4th Mar 2021 discord
+
+Circulation list: All group members, plus project manager
+Author: Piotr Duda
+Date of minutes: 4th Mar 2021
+Version: 1.1
+
+Matters arising
+===============
+
+1. Test spec review meeting on Friday 26th Feb 3pm (and 3rd Mar just in case).
+ACTION: pid8, isl7, bas22, ahz1
+STATUS: Completed
+
+2. Isaac, Keean, Juan, Josh, Alex and Tarunsundar will meet to talk about design spec after the group meeting on Tuesday 2nd Mar.
+ACTION: isl7, keg21, jmp16, jol66, alc7, tak17
+STATUS: Completed
+
+3. Alex and Tarunsundar will re-write exercises with specified intensities and creating a document type definition (DTD).
+ACTION: alc7, tak17
+STATUS: Ongoing
+
+4. Presentation of Test spec documents.
+ACTION: bas22, ahz1
+STATUS: Completed
+ 
+5. UI spec feedback overview and changes.
+ACTION: keg21
+STATUS: Completed
+
+New Business
+============
+
+6. Isaac and Juan will work on design spec and start writing down the class diagram.
+ACTION: isl7, jmp16
+
+7. Alex and Ahmed will work on designing xml related classes (on the shared UML diagram).
+ACTION: alc7, ahz1
+
+8. Isaac, Josh and Keean will work on app class.
+ACTION: isl7, jol66, keg21
+
+9. Bartek will raise and close the issues on the Test spec and makes the java skleton.
+ACTION: bas22
+
+10. Keean will raise issues and close the issues on the UI spec.
+ACTION: keg21
+
+11. Ahmed will update readme file on GitLab.
+ACTION: ahz1
+ 
+
+

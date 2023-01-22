@@ -1,0 +1,47 @@
+CS22120 Project: Group 10
+
+Meeting: Design specification review meeting 
+Persons present:
+
+Clive, Alexander	alc72
+Duda, Piotr	pid8
+Griffith, Keean	keg21
+Szpak, Bartosz Tomasz	bas22
+Zitoun, Ahmed	ahz1
+Kalyanaraman, Tarunsundar	tak17
+
+Date and Place of the meeting: 24th Mar 2021 discord
+
+
+Circulation list:
+Clive, Alexander	alc72
+Duda, Piotr	pid8
+Griffith, Keean	keg21
+Szpak, Bartosz Tomasz	bas22
+Zitoun, Ahmed	ahz1
+Kalyanaraman, Tarunsundar	tak17
+
+Author: Piotr Duda
+Date of minutes: 24th March 2021
+Version: 1.0
+
+Matters arising
+===============
+None, first review meeting
+
+New Business
+============
+
+1.1 Reviewing Design spec.
+ACTION: alc7, pid8, bas22, ahz1, tak17
+
+1.2 Going through APPENDIX A Checklist.
+ACTION: alc7, pid8, bas22, ahz1, tak17
+
+1.3 Going through APPENDIX C Checklist.
+ACTION: alc7, pid8, bas22, ahz1, tak17
+
+2. Fixing problems, raising issues.
+ACTION: alc7, pid8, bas22, ahz1, tak17
+
+

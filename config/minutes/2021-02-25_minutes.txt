@@ -1,0 +1,61 @@
+CS22120 Project: Group 10
+
+Meeting: Weekly project meeting - Tutorial 5
+
+Persons present:
+
+Shipman, Richard    rcs 
+Clive, Alexander	alc72
+Duda, Piotr	pid8
+Griffith, Keean	keg21
+Ladds, Isaac	isl7
+Lugg, Joshua	jol66
+Szpak, Bartosz Tomasz	bas22
+Zitoun, Ahmed	ahz1
+Kalyanaraman, Tarunsundar	tak17
+Palma Arroyo, Juan Manuel	jmp16
+
+Date and Place of meeting: 25th Feb 2021 discord
+
+Circulation list: All group members, plus project manager
+Author: Piotr Duda
+Date of minutes: 25th Feb 2021
+Version: 1.2
+
+Matters arising
+===============
+
+1. Piotr will complie a list of project deliverables on GitLab
+ACTION: pid8
+STATUS: Completed
+
+2. Review UI meeting on Friday 19th Feb at 12 o'clock.
+ACTION: pid8, isl7, keg21, tak17
+STATUS: Completed
+
+3. Uploading files to GitLab repository.
+ACTION: EVERYONE
+STATUS: Completed
+
+4.Isaac, Josh, Alex, Tarunsundar, Keean and Juan will work on design specification.
+ACTION: isl7, jol66, alc7, tak17, keg21, jmp16
+STATUS: Ongoing
+
+5. Isaac, Alex, Josh and Juan will meet on Tuesday 23rd Feb at 15 o'clock to fit code and class diagram all together.
+ACTION: isl7, alc72, jol66, jmp16
+STATUS: Completed
+
+New Business
+============
+
+6. Test spec review meeting on Friday 26th Feb 3pm (and 3rd Mar just in case).
+ACTION: pid8, isl7, bas22, ahz1
+
+7. Isaac, Keean, Juan, Josh, Alex and Tarunsundar will meet to talk about design spec after the group meeting on Tuesday 2nd Mar.
+ACTION: isl7, keg21, jmp16, jol66, alc7, tak17
+
+8. Alex and Tarunsundar will re-write exercises with specified intensities and creating a document type definition (DTD).
+ACTION: alc7, tak17
+
+
+

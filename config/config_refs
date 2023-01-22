@@ -1,0 +1,10 @@
+Item                  |Configuration Reference     |Name                                         |Location
+UI presentation       |UIGroup10_pres              |User_Interface_Design_Presentation_V_1.0.pdf |folder docs/uispec
+UI spec               |UIGroup10_doc               |User_Interface_Specification__V_1.0.pdf      |folder docs/uispec
+Test spec             |TestGroup10_doc             |Testing_Spec.pdf                             |folder docs/testspec
+Design spec           |DesignGroup10_doc           |Design_Spec.pdf                              |folder docs/designspec
+Project test report   |TestGroup10_doc             |Project_Test_Report.pdf                      |folder docs/testreport
+Maintenance Manual    |MaintenanceManualGroup10_doc|Maintainance_Manual.docx                     |folder docs/maintenancereport
+Final Report          |FinalReportGroup10_doc      |End of Project Report.pdf                    |folder docs/finalreport/end_of_project_report
+Tests                 |                            |                                             |folder src/uk/aber/cs221/group10/tests
+Source code           |                            |                                             |folder src

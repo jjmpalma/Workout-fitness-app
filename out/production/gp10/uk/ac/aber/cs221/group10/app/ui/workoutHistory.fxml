@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1040.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uk.ac.aber.cs221.group10.app.ui.WorkoutHistoryController">
+   <top>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="60.0" style="-fx-background-color: #3983c9; -fx-border-color: #000000;" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="backButton" mnemonicParsing="false" onAction="#backButton" prefHeight="50.0" prefWidth="100.0" text="Back" />
+            <Label text="Workout History">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+   </top>
+   <center>
+      <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: #000000;" BorderPane.alignment="CENTER">
+         <children>
+            <TableView fx:id="historyTable" prefHeight="938.0" prefWidth="2007.0" style="-fx-background-color: #b3e5fc;">
+               <columns>
+                  <TableColumn fx:id="dateColumn" prefWidth="130.0" text="Date" />
+                  <TableColumn fx:id="exercisesColumn" minWidth="8.0" prefWidth="966.0" text="Exercises" />
+                  <TableColumn fx:id="workTimeColumn" minWidth="0.0" prefWidth="349.0" text="Work time" />
+                  <TableColumn fx:id="restTimeColumn" prefWidth="254.0" text="Rest Time" />
+                  <TableColumn fx:id="midRestTimeColumn" prefWidth="218.0" text="Mid Rest Time" />
+               </columns>
+            </TableView>
+         </children>
+      </HBox>
+   </center>
+   <bottom>
+      <Button mnemonicParsing="false" onAction="#backButton" text="Back" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>

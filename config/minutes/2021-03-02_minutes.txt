@@ -1,0 +1,43 @@
+CS22120 Project: Group 10
+
+Meeting: Design Specification Meeting
+Persons present:
+
+Ladds, Isaac	isl7
+Szpak, Bartosz Tomasz	bas22
+Zitoun, Ahmed	ahz1
+Manuel Palma Arroyo, Juan  jmp16
+Lugg, Josh   jol66
+Clive, Alex   alc72
+Griffith, Keean   keg21
+
+
+
+Date and Place of the meeting: 2nd March 2021 discord
+
+
+Circulation list:
+Ladds, Isaac	isl7
+Szpak, Bartosz Tomasz	bas22
+Zitoun, Ahmed	ahz1
+Manuel Palma Arroyo, Juan  jmp16
+Lugg, Josh   jol66
+Clive, Alex   alc72
+Griffith, Keean   keg21
+
+Author: Keean Griffith (Deputy QA Manager)
+Date of minutes: 2nd March 2021
+Version: 1.0
+
+Matters arising
+===============
+
+1.Isaac, Josh, Alex, Tarunsundar, Keean and Juan will work on design specification.
+ACTION: isl7, jol66, alc7, tak17, keg21, jmp16
+STATUS: Ongoing
+ 
+New Business
+============
+
+1.1 Updating XML structure
+ACTION: alc72

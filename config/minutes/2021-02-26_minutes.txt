@@ -1,0 +1,44 @@
+CS22120 Project: Group 10
+
+Meeting: Test specification review meeting 
+Persons present:
+
+Ladds, Isaac	isl7
+Duda, Piotr	pid8
+Szpak, Bartosz Tomasz	bas22
+Zitoun, Ahmed	ahz1
+
+Date and Place of the meeting: 26th Feb 2021 discord
+
+
+Circulation list:
+Ladds, Isaac	isl7
+Duda, Piotr	pid8
+Szpak, Bartosz Tomasz	bas22
+Zitoun, Ahmed	ahz1
+
+Author: Piotr Duda
+Date of minutes: 26th Feb 2021
+Version: 1.0
+
+Matters arising
+===============
+None, first review meeting
+
+New Business
+============
+
+1.1 Reviewing Test spec.
+ACTION: isl7, pid8, bas22, ahz1
+
+1.2 Going through APPENDIX A Checklist.
+ACTION: isl7, pid8, bas22, ahz1
+
+1.3 Going through APPENDIX D Checklist.
+ACTION: isl7, pid8, bas22, ahz1
+
+2. Fixing problems - Complete contents page. Number references and document history. Add a test to show progress numbers.
+ACTION: bas22, ahz1
+
+3. Next review meeting Wednesday 3rd Mar 2021 3pm.
+ACTION: isl7, pid8, bas22, ahz1

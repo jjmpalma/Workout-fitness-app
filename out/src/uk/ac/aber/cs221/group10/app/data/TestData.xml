@@ -1,0 +1,7 @@
+<data>
+    <preconfig>
+    <test>
+    <workout id="1" intensity="BEGINNER" quantity="20" work="60" rest="30" midrest="60"/>
+    </test>
+    </preconfig>
+</data>

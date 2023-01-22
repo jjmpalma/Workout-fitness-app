@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1040.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uk.ac.aber.cs221.group10.app.ui.CustomWorkoutController">
+   <top>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="60.0" style="-fx-background-color: #3983c9; -fx-border-color: #000000;" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="bButton" mnemonicParsing="false" onAction="#backButton" prefHeight="50.0" prefWidth="100.0" text="Back" />
+            <Label alignment="CENTER" text="Configure your Workout" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+   </top>
+   <center>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="15.0" style="-fx-background-color: #b3e5fc; -fx-border-color: #000000;" BorderPane.alignment="CENTER">
+         <children>
+            <Label text="How many exercises">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Slider fx:id="noOfExercisesSlider" majorTickUnit="1.0" max="30.0" min="1.0" prefHeight="14.0" prefWidth="1783.0" />
+            <Label fx:id="noOfExercisesLabel" text="1" />
+            <Label text="Working time per exercise">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Slider fx:id="workTimeSlider" max="300.0" min="10.0" prefHeight="14.0" prefWidth="226.0" />
+            <Label fx:id="workTimeLabel" text="0:10" />
+            <Label text="Resting time per exercise">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Slider fx:id="restTimeSlider" max="300.0" min="10.0" prefHeight="14.0" prefWidth="226.0" />
+            <Label fx:id="restTimeLabel" text="0:10" />
+            <Label text="Rest time halfway through exercises">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Slider fx:id="midRestTimeSlider" max="600.0" prefHeight="14.0" prefWidth="229.0" />
+            <Label fx:id="midRestTimeLabel" text="0:00" />
+            <Button fx:id="exerciseOverview" mnemonicParsing="false" onAction="#goToExerciseOverview" prefHeight="69.0" prefWidth="142.0" text="Configure Workout" />
+         </children>
+         <padding>
+            <Insets bottom="50.0" left="600.0" right="600.0" />
+         </padding>
+      </VBox>
+   </center>
+   <bottom>
+      <VBox prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: #3983c9; -fx-border-color: #000000;" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>

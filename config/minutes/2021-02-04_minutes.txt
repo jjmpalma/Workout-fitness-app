@@ -1,0 +1,67 @@
+CS22120 Project: Group 10
+
+Meeting: Weekly project meeting
+Persons present:
+
+Shipman, Richard    rcs 
+Clive, Alexander	alc72
+Duda, Piotr	pid8
+Griffith, Keean	keg21
+Ladds, Isaac	isl7
+Lugg, Joshua	jol66
+Szpak, Bartosz Tomasz	bas22
+Zitoun, Ahmed	ahz1
+Kalyanaraman, Tarunsundar	tak17
+Palma Arroyo, Juan Manuel	jmp16
+
+Date and Place of meeting: 4th Feb 2021 discord
+
+Circulation list: All group members, plus project manager
+Author: Piotr Duda
+Date of minutes: 4th Feb 2021
+Version: 1.1
+
+Matters arising
+===============
+
+1. Tarunsundar to set up a blog and put a link to his blog in the discord text channel (point 3.2 of minutes of 28th January). 
+ACTION: tak17
+STATUS: Ongoing
+
+2.  Keean and Tarunsundar will read SE.QA.04 and start work on material for the user interface document. They will also start putting together some possible screens in Powerpoint. 
+ACTION: keg21, tak17
+STATUS: Ongoing
+
+3. Bartek and Ahmed will read SE.QA.06 and start drafting a list of repeatable tests. They will sketch some tests for functional requirements (Bartek for FR1, FR2, FR3, Ahmed for FR4, FR5, FR6) from the Requirements specification.  
+ACTION:  bas22, ahz1
+STATUS: Completed
+
+4. Alex , Isaac and Joshua will start looking at the technical issues of the project. Joshua will use JavaFX to make some example screens for the application. Isaac will investigate the use of timers to show a clock counting down. 
+Alex will investigate the options for saving Java objects to persistent storage and tell us next week what the choices are.  
+ACTION: alc72, isl7, jol66
+STATUS: Ongoing
+
+5. Piotr and Juan will look at documents SE.QA01, SE.QA.02, SE.QA.03 before next week and come along ready to summarise them in 5 minutes for the group. 
+ACTION: pid8, jmp16
+STATUS: Completed
+
+
+New Business
+============
+
+6. Isaac will work on JavaFX Timers.
+ACTION: isl7
+
+7. Ahmed and Bartek will carry on with more testing (FR 7 - FR 10).
+ACTION: ahz1, bas22 
+
+8. Piotr and Juan will work on SE.QA7 and SE.QA8 documents.
+ACTION: pid8, jmp16
+
+9. Keean will choose and describe exercises.
+ACTION: keg21
+
+10. Electing Project Leader, Deputy Project Leader, QA Manager, Deputy QA Manager
+ACTION: Everyone
+
+

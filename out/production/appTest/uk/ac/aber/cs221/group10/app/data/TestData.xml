@@ -1,0 +1,10 @@
+<data>
+    <exercises>
+    <exercise id="5" intensity="STANDARD" name="High Knees" filePath="src/uk/ac/aber/cs221/group10/media/HighKnees.mp4" description="High Knees - Alternating legs, lift your knee as high as possible then alternate legs."/>
+    </exercises>
+    <preconfig>
+    <test>
+    <workout id="1" intensity="BEGINNER" quantity="20" work="60" rest="30" midrest="60"/>
+    </test>
+    </preconfig>
+</data>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!DOCTYPE data [
+        <!ELEMENT data (exercises, preconfig)>
+
+        <!ELEMENT exercises (exercise)+>
+        <!ELEMENT exercise (#PCDATA)>
+        <!ATTLIST exercise id CDATA #REQUIRED>
+        <!ATTLIST exercise intensity CDATA #REQUIRED>
+        <!ATTLIST exercise name CDATA #REQUIRED>
+        <!ATTLIST exercise filePath CDATA #REQUIRED>
+        <!ATTLIST exercise description CDATA #REQUIRED>
+
+        <!ELEMENT preconfig (beginner, experienced, liit, hiit, custom)>
+        <!ELEMENT beginner (workout)+>
+        <!ELEMENT experienced (workout)+>
+        <!ELEMENT liit (workout)+>
+        <!ELEMENT hiit (workout)+>
+        <!ELEMENT custom (workout)+>
+        <!ELEMENT workout (#PCDATA)>
+
+        <!ATTLIST workout id CDATA #REQUIRED>
+        <!ATTLIST workout intensity CDATA #REQUIRED>
+        <!ATTLIST workout quantity CDATA #REQUIRED>
+        <!ATTLIST workout work CDATA #REQUIRED>
+        <!ATTLIST workout rest CDATA #REQUIRED>
+        <!ATTLIST workout midrest CDATA #REQUIRED>
+        ]>
+
+
+<data>
+    <exercises>
+            <exercise id="1" intensity="STANDARD" name="Star Jump" filePath="src/uk/ac/aber/cs221/group10/media/StarJump.mp4" description="Star Jump - Start with legs together and arms at your sides, jump and open your legs to a just over shoulder width apart and bring your arms up above your head in a sweeping motion and then return to the start position and repeat."/>
+            <exercise id="2" intensity="STANDARD" name="Air Squat" filePath="src/uk/ac/aber/cs221/group10/media/AirSquat.mp4" description="Air Squat - Start with feet shoulder width apart or a little wider, slowly squat down until you hit at least 90 degree depth, then push off the ground with your legs and stand up. (Tip: Remember to keep your core and back engaged!)"/>
+            <exercise id="3" intensity="STANDARD" name="Lunge" filePath="src/uk/ac/aber/cs221/group10/media/Lunge.mp4" description="Lunge - Start with feet shoulder width apart, take a big large step forward and lower down with that leg until it's past 90 degrees, then use your legs to push up with that leg."/>
+            <exercise id="4" intensity="STANDARD" name="Sit Up" filePath="src/uk/ac/aber/cs221/group10/media/SitUp.mp4" description="Sit Up - Keep core engaged while sitting up and keep back neutral."/>
+            <exercise id="5" intensity="STANDARD" name="High Knees" filePath="src/uk/ac/aber/cs221/group10/media/HighKnees.mp4" description="High Knees - Alternating legs, lift your knee as high as possible then alternate legs."/>
+            <exercise id="6" intensity="STANDARD" name="Tricep Dips" filePath="src/uk/ac/aber/cs221/group10/media/TricepDips.mp4" description="Tricep Dips - Start with arms straight, lower yourself down until your arm is at a 90 degree angle, then explode up with your triceps."/>
+            <exercise id="7" intensity="STANDARD" name="Incline Pushups" filePath="src/uk/ac/aber/cs221/group10/media/InclinePushup.mp4" description="Incline Pushups - Find an object to do this exercise on, start with arms straight on the object, lower yourself down until your touches the object, then explode up with your chest and triceps."/>
+            <exercise id="8" intensity="STANDARD" name="Knee assisted Pushup" filePath="src/uk/ac/aber/cs221/group10/media/KneeAssistedPushup.mp4" description="Knee assisted Pushup - Start on knees with arms holding you as support, then lower down to the ground with your arms until your chest is near the ground, then push back up."/>
+
+            <exercise id="9" intensity="STANDARD" name="Pushup" filePath="src/uk/ac/aber/cs221/group10/media/Pushups.mp4" description="Pushup - Keep arms straight and core engaged when going down keep elbows tight to body and pushup up once your chest is a couple inches off the ground."/>
+            <exercise id="10" intensity="STANDARD" name="Twisting Sit Up" filePath="src/uk/ac/aber/cs221/group10/media/TwistingSitUp.mp4" description="Twisting Sit Up - Start on your back with your arms crossed over your chest, situp while keeping your back neutral and core engaged then repeat."/>
+            <exercise id="11" intensity="STANDARD" name="Mountain Climber" filePath="src/uk/ac/aber/cs221/group10/media/MountainClimbers.mp4" description="Mountain Climber - Keep arms straight and core tight bring legs up alternating between each leg."/>
+            <exercise id="12" intensity="STANDARD" name="Plank" filePath="src/uk/ac/aber/cs221/group10/media/Plank.mp4" description="Plank - Keep core tight and legs engaged throughout."/>
+            <exercise id="13" intensity="STANDARD" name="Half Burpee" filePath="src/uk/ac/aber/cs221/group10/media/HalfBurpee.mp4" description="Half Burpee - Start in press up position, lift both legs forward together and then quickly open them back straight again."/>
+            <exercise id="14" intensity="STANDARD" name="Front Raise" filePath="src/uk/ac/aber/cs221/group10/media/FrontRaise.mp4" description="Front Raise - Start on your back, lift feet 6 inches off the ground and keep them there, keep core engaged."/>
+            <exercise id="15" intensity="STANDARD" name="Jumping Lunges" filePath="src/uk/ac/aber/cs221/group10/media/JumpingLunge.mp4" description="Jumping Lunges - Start with feet shoulder width apart, take a big large step forward and lower down with that leg until it's past 90 degrees, then use your leg to explode up and jump, with your other leg complete the same exercise and repeat."/>
+            <exercise id="16" intensity="STANDARD" name="Russian Twist" filePath="src/uk/ac/aber/cs221/group10/media/RussianTwist.mp4" description="Russian Twist - Sit with legs and feet raised off the ground, keep your core engaged and move arms in a sweeping motion from one hip to the other."/>
+            <exercise id="17" intensity="STANDARD" name="Flutter Kicks" filePath="src/uk/ac/aber/cs221/group10/media/FlutterKicks.mp4" description="Flutter Kicks - Starting on your back, lift your legs up and down alternating about 6 inches off the ground, keep the core engaged."/>
+            <exercise id="18" intensity="STANDARD" name="V-Ups" filePath="src/uk/ac/aber/cs221/group10/media/VUps.mp4" description="V-Ups - Start flat on your back, lift your legs up then sit up and touch your toes in the air."/>
+            <exercise id="19" intensity="STANDARD" name="Wide Arm Pushup" filePath="src/uk/ac/aber/cs221/group10/media/WideArmPushup.mp4" description="Wide Arm Pushup - Place arms wider than shoulder width apart in a press up position, and lower down until your chest touches the ground, then push up remembering to try and use your chest."/>
+            <exercise id="20" intensity="STANDARD" name="Jump Squats" filePath="src/uk/ac/aber/cs221/group10/media/JumpingSquat.mp4" description="Jump Squats - Start with legs shoulder width apart , lower down until your legs hit a 90 degree angle, then explode up into a jump, when landing, lower right back into the squat and repeat."/>
+            <exercise id="21" intensity="STANDARD" name="Plank Up" filePath="src/uk/ac/aber/cs221/group10/media/PlankUp.mp4" description="Plank Up - Start in a plank position resting on your forearms keeping your core tight, alternatively stand your arms up into a pushup position then return to the original position."/>
+            <exercise id="22" intensity="STANDARD" name="Power Lunge" filePath="src/uk/ac/aber/cs221/group10/media/PowerLunge.mp4" description="Power Lunge - Start with feet shoulder width apart, take a big large step forward and lower down with that leg until it's past 90 degrees, then use your legs to push up with that leg and swing your other leg through and jump."/>
+
+            <exercise id="23" intensity="STANDARD" name="Pike Pushup" filePath="src/uk/ac/aber/cs221/group10/media/PikePushup.mp4" description="Pike Pushup - Keep legs as straight as possible, when lowering keep core engaged and lower until your head is near the ground, then explode back up with your arms and shoulders."/>
+            <exercise id="24" intensity="STANDARD" name="One Hand Pushup" filePath="src/uk/ac/aber/cs221/group10/media/OneArmPushup.mp4" description="One Hand Pushup - Keep legs wide and arm straight at the start. When lowering don't go too fast, once your chest is near the ground pushup with your arms."/>
+            <exercise id="25" intensity="STANDARD" name="Pistol Squat" filePath="src/uk/ac/aber/cs221/group10/media/PistolSquat.mp4" description="Pistol Squat -  Ensure leg stays perpendicular to the ground at the start, slowly lower down on one leg, once your leg reaches a 90 degree, explode back up."/>
+            <exercise id="26" intensity="STANDARD" name="Diamond Pushup" filePath="src/uk/ac/aber/cs221/group10/media/DiamondPushups.mp4" description="Diamond Pushup - Place hands so that it makes a sort of diamond, lower until your chest touches your hands then use triceps to pushup up."/>
+            <exercise id="27" intensity="STANDARD" name="Burpee" filePath="src/uk/ac/aber/cs221/group10/media/Burpee.mp4" description="Burpee - Compound exercise which targets the entire body.	Start standing and squat down and put your hands on the ground, then kick your legs back so they're completely straight, then stand up in the exact same way."/>
+            <exercise id="28" intensity="STANDARD" name="Decline Pushup" filePath="src/uk/ac/aber/cs221/group10/media/DeclinePushup.mp4" description="Decline Pushup - Find an object to rest your feet on and put both hands on the ground, keep them straight, then lower down until your chest is near the ground, then explode up with your chest, shoulders and arms."/>
+            <exercise id="29" intensity="STANDARD" name="Spider Pushup" filePath="src/uk/ac/aber/cs221/group10/media/SpiderPushup.mp4" description="Spider Pushup - Start in a pushup position, lower your chest to the ground whilst lifting your one leg up to your ribs, then push up to the original position, remembering to alternate legs."/>
+            <exercise id="30" intensity="STANDARD" name="Bicycle Crunch" filePath="src/uk/ac/aber/cs221/group10/media/BicycleCrunch.mp4" description="Bicycle Crunch - Start on back with legs in the air at 90 degrees and hands on head, alternating arms, lift your elbow and touch it to your knee and repeat remembering to keep the core tight."/>
+
+    </exercises>
+
+    <preconfig>
+        <beginner>
+            <workout id="1" intensity="BEGINNER" quantity="10" work="20" rest="20" midrest="0"/>
+            <workout id="2" intensity="BEGINNER" quantity="12" work="20" rest="20" midrest="120"/>
+            <workout id="3" intensity="BEGINNER" quantity="14" work="20" rest="20" midrest="120"/>
+        </beginner>
+        <experienced>
+            <workout id="4" intensity="ADVANCED" quantity="20" work="30" rest="20" midrest="120"/>
+            <workout id="5" intensity="ADVANCED" quantity="22" work="30" rest="20" midrest="0"/>
+            <workout id="6" intensity="ADVANCED" quantity="24" work="35" rest="20" midrest="60"/>
+        </experienced>
+        <liit>
+            <workout id="7" intensity="LIIT" quantity="5" work="30" rest="20" midrest="120"/>
+        </liit>
+        <hiit>
+            <workout id="8" intensity="HIIT" quantity="15" work="30" rest="10" midrest="90"/>
+        </hiit>
+        <custom>
+            <workout id="9" intensity="CUSTOM" quantity="1" work="1" rest="1" midrest="0"/>
+        </custom>
+    </preconfig>
+</data>

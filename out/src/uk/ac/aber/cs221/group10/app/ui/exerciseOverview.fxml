@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uk.ac.aber.cs221.group10.app.ui.ExerciseOverviewController">
+   <center>
+      <VBox alignment="TOP_CENTER" prefHeight="724.0" prefWidth="1920.0" style="-fx-background-color: #b3e5fc; -fx-border-color: #000000;" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" prefHeight="17.0" prefWidth="764.0" text="Number of Exercises" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font></Label>
+            <Label fx:id="noOfExercises" alignment="CENTER" prefHeight="17.0" prefWidth="749.0" text="noOfExercises" textAlignment="CENTER">
+               <font>
+                  <Font size="16.0" />
+               </font></Label>
+            <Label alignment="CENTER" prefHeight="17.0" prefWidth="658.0" text="Working Time">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font></Label>
+            <Label fx:id="workingTime" alignment="CENTER" prefHeight="17.0" prefWidth="813.0" text="workingTime">
+               <font>
+                  <Font size="16.0" />
+               </font></Label>
+            <Label alignment="CENTER" prefHeight="17.0" prefWidth="732.0" text="Resting Time">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font></Label>
+            <Label fx:id="restingTime" alignment="CENTER" prefHeight="17.0" prefWidth="617.0" text="restingTime">
+               <font>
+                  <Font size="16.0" />
+               </font></Label>
+            <Label alignment="CENTER" prefHeight="17.0" prefWidth="641.0" text="Mid-way Rest">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font></Label>
+            <Label fx:id="midwayRest" alignment="CENTER" prefHeight="17.0" prefWidth="672.0" text="midwayRest">
+               <font>
+                  <Font size="16.0" />
+               </font></Label>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="50.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#previousSelection" prefHeight="50.0" prefWidth="250.0" text="Select/Create a different set of exercises" />
+                  <Button alignment="CENTER" mnemonicParsing="false" onAction="#goToWorkout" prefHeight="50.0" prefWidth="250.0" text="Start Workout" />
+               </children>
+               <padding>
+                  <Insets top="50.0" />
+               </padding>
+            </HBox>
+         </children>
+         <padding>
+            <Insets top="100.0" />
+         </padding>
+      </VBox>
+   </center>
+   <top>
+      <HBox alignment="CENTER" prefHeight="130.0" prefWidth="1920.0" spacing="60.0" style="-fx-background-color: #3983c9; -fx-border-color: #000000;" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefWidth="305.0" text="Exercise Overview" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+   </top>
+   <bottom>
+      <VBox prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: #3983c9; -fx-border-color: #000000;" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>

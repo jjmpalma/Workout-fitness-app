@@ -1,0 +1,139 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[nottoc,notlot,notlof]{tocbibind}
+\usepackage[none]{hyphenat}
+\usepackage{gensymb}
+\graphicspath{ {./images/} }
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage{lastpage}
+
+\author{I. P. J. Ladds}
+\title{%
+	End of Project Report \\
+	\large Version 1.0 \\
+	Status: Released \\
+	Group 10 \\
+	Department of Computer Science \\
+	Aberystwyth University \\
+	Aberystwyth Ceredigion \\
+	SY23 3DB \\
+	Copyright $\copyright$ of Aberystwyth University 2021 
+	
+}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{CS22120 Group Project: 10 - End of Project Report / Released}
+\rhead{Group 10}
+\lfoot{Aberystwyth University / Computer Science}
+\rfoot{Page \thepage \space  of \pageref{LastPage}}
+
+\begin{document}
+	\maketitle
+	\newpage
+	\tableofcontents
+	\newpage
+	\section{Introduction}
+	\subsection{Purpose of this document}
+	This document is meant to state clearly how much has been accomplished on the project. 
+	\subsection{Scope}
+	This covers a review of how much of the project was achieved, how team members performed and an analysis of the project as a whole.
+	\subsection{Objectives}
+	This document should give the reader an overview on what was accomplished in the project, a historical account of the project, and any difficulties that the group came across.
+	\section{Management Summary}
+	\subsection{Project accomplishments}
+	Group 10 was able to produce an exercise app that allowed the user to go through a series of random exercises. The app passed all the acceptance test required and as a group we were happy with the product we had made.
+	\par
+	The project test report, project maintenance manual, and most of the specifications are all complete and in the git. However, we found updating the design specification very difficult.
+	\par 
+	As a team, we mostly performed well. We did have some issues with attendance to group meetings outside of our timetabled slot on Thursday, but they were mostly well attended.
+	\subsection{Difficulties faced}
+	As a team, we had some difficulties with creating the design specification. None of the team was very familiar with creating some of the diagrams required, and planning for a project this large for the first time was difficult. This led to the team quite drastically modifying our design specification during integration week as we grew more experienced, especially with Java-FX.
+	\par 
+	We also had some difficulties with communication due to the online nature of the group project, especially with integration week. As a team we did manage to overcome this by use of difference voice channels and lots of screen sharing, but it definitely slowed down the coding.
+	\newpage
+	\section{Historical Account of the Project}
+	\subsection{Initial development}
+	Group 10's first actions were to assign preliminary tasks to the members. These included summarising SE.QA documents for the other team members, researching Java-FX in order to display our UI as well as displaying a pausable timer.
+	\par
+	Next, our team designed our UI and created our UI specification. This consisted of example screens for our user interface and was referenced quite heavily for future specifications.
+	\par
+	Next, our team created our Test specification, with tests to run our program through. Then, our team created our design specification. We first made a UML diagram, then used that diagram to add to our design specification, although our design spec changed quite a lot since then during integration week.
+	\par
+	We split the Group into two teams, the coding team and the testing team. The coding team would be responsible for the main code of the application, while the testing team would be writing tests and running the application.
+	\subsection{Integration week}
+	During Integration week, we performed well as a team, getting a mostly working product by Wednesday. However, we did have some problems with saving data, which only got completed the following day.
+	\subsection{Follow integration week}
+	Following integration week, we created our final documents as a team and uploaded them to the git. 
+	\newpage
+	\section{Final State of the Project}
+	\subsection{Summary of correct parts}
+	The project fulfilled all of the functional requirements specified in Requirements Specification for Exercise with Chris.\cite{requirementsSpecification} We have all the documents completed and in the git lab.
+	\subsection{Errors in the project}
+	One error we have discovered after integration week ended is with the saving of workout history. This is due to the month changing after the deadline for the code had past. When saving, the application will save before checking for the next month, meaning that the first exercises of the new month will have the incorrect date. After this first workout, the date will be correct for the rest.
+	\newpage
+	\section{Performance of the Team Members}
+	\subsection{Isaac Ladds}
+	Blog: \url{https://docs.google.com/document/d/143M9Cl9aDEUa594TuWX5umO9NDlZP0n4kVqng4Q6OuY/edit?usp=sharing} 
+	\par
+	Isaac was the project manager for the team. Isaac worked on creating a timer for the application using Java-FX. He also worked heavily on the design specification. During integration week, he worked mostly on the UI as Joshua had to pull out of integration week. He also created the final report.
+	\subsection{Piotr Duda}
+	Blog: \url{https://docs.google.com/document/d/1sg7_-QGxZXYUXkKfTx_KPBHWCB0wVNFlv2Mkz4PB2As/edit?usp=sharing}
+	\par
+	Piotr was the QA manager for the team. As QA manager, he was responsible for making minutes for our meeting and making sure that the Git repository was maintained correctly. He also worked on the design specification.
+	\subsection{Bartek Szpak}
+	Blog: \url{https://docs.google.com/document/d/1Kl4R8YUaYucAb5rGIbNsEKO44fE5sgb7Drte0erF60M/edit?usp=sharing}
+	\par
+	Bartek worked on creating the testing table for the project and developing the Test specification for the project. He also help to created the skeleton code for the project. During integration week Bartek was instrumental for creating our test classes and running Java tests on our code, documenting the Module and System Tests. He also worked on Project Test Report.
+	\subsection{Ahmed Zitoun}
+	Blog: \url{https://docs.google.com/document/d/1ZEcZ2TQjG3Pa-tsmK6Ku390-hOQNUGTzXkpsSdpakcs/edit?usp=sharing}
+	\par 
+	Ahmed worked on creating the testing table for the project and developing the Test specification for the project. He also help to created the skeleton code for the project. During integration week Ahmed was instrumental for creating our test classes and running Java tests on our code. 
+	\subsection{Tarunsundar Kalyanaraman}
+	Blog: \url{https://docs.google.com/document/d/1ap4ItFcT21xOThylxB4GIfrWbDwI1YIRo3Fwm1XbWzA/edit?usp=sharing}
+	\par 
+	Despite having a rough start, Tarunsundar was a useful addition to the team. He worked on creating the testing table for the project and developing the Test specification for the project. He also help to created the skeleton code for the project. During integration week he helped to create our test classes and running Java tests on our code. 
+	\subsection{Juan Manuel Palma}
+	Blog: \url{https://www.notion.so/jjmpalma/Project-blog-jmp16-e42ba8d792174122984aaddf8d4a6801}
+	\par 
+	Juan worked on creating an overview of documents for the project. He working on the design spec and creating a useful UML diagram. He also worked on the implementation of the XML database for exercises and workouts. During integration week, Juan did a lot of work with coding, and really helped with saving and loading the workout history.
+	\subsection{Keean Rhys Griffith}
+	Blog: \url{https://docs.google.com/document/d/100PIMQfW8kUW0XGAEhkADBYYkphhOBrcz_iOmiFvWOg/edit}
+	\par
+	Keean was the Deputy QA Manager assigned to our project. Keean worked early on the UI Specification and completed the majority of it himself as another member had a rocky start. Keean also recorded, converted and compressed all the videos we used in the application to display the workout to the user himself. During integration week Keean used SceneBuilder and Java controllers to design and format the applications User Interface.
+	\subsection{Alex Clive}
+	Blog: \url{https://docs.google.com/document/d/1LxFRlMXgj1hOGdorHBqSZEOsKcyNoA4PGjJ_5MPDtOw/edit?usp=sharing}
+	\par
+	Alex  was the deputy project manager. Alex worked on local storage for the project deciding on using XML. Alex provided most of the work and research for the XML, working on the design specification to add it in correctly. During integration week, Alex was instrumental for our saving and loading with XML.
+	\subsection{Joshua Lugg}
+	Blog: \url{https://docs.google.com/document/d/1UWLY9eqx-LrJGtMCoKN_YsEoG8FxgVgudp0B8tLUDH4/edit}
+	\par 
+	Joshua did research into using Java-FX to produce a working UI, as well as how to play videos in Java-FX. Sadly, due to unforeseen circumstances, Josh was only available for the first day of integration week through no fault of his own.
+	\newpage  
+	\section{Critical Evaluation of the Team and the Project}
+	\subsection{How the team performed}
+	The team generally performed well as a whole, however communication was sometimes difficult to achieve, with people missing meetings and delaying review meetings for documents, so communication and timing was something to improve. We also had some issues of people not taking initiative and waiting for people to give them work and not asking. One issue we had to overcome was the different levels of aptitude our team had for certain applications, like using git, which took some time to get used to. We also had some issues with team members not producing work assigned to them, especially with the final documents update, which led to some of them being rushed.
+	\par 
+	Another aspect we found difficult was producing clear documents for the project. We found the design specification particularly hard to do as none of us were familiar with the diagrams needed for the specification.
+	\subsection{Improvements}
+	A useful and easy to find timetable for the project would have been nice to have as some of the dates and deadlines were a little buried in the QA documents.
+	\subsection{Lessons learned}
+	Important lessons we learnt were in planning and meetings. Having to take minutes and track our hours learned was something new and a good thing to learn for the future. 
+	\begin{thebibliography}{widestlabel}
+		\bibitem{requirementsSpecification}
+		\textit{Requirements Specification for Exercise with Chris}
+	\end{thebibliography}
+	\section{Document Change History}
+	\begin{center}
+		\begin{tabular}{ c c c c c}
+			Version & CFF No & Date & Sections changed & Changed by \\
+			Version 1.0 & N/A &  5/5/2021 & Initial Writing & I.P.J.Ladds
+		\end{tabular}
+
+	\end{center}
+\end{document}

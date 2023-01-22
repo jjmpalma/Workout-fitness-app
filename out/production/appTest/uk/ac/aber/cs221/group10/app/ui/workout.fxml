@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.media.MediaView?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="1040.0" prefWidth="1920.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uk.ac.aber.cs221.group10.app.ui.WorkoutController">
+   <top>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #3983c9; -fx-border-color: #000000;" BorderPane.alignment="CENTER">
+         <children>
+            <Label text="Workout">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+   </top>
+   <center>
+      <VBox fx:id="colorBox" alignment="CENTER" prefHeight="794.0" prefWidth="600.0" spacing="40.0" style="-fx-background-color: #26bf42; -fx-border-color: #000000;" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="currentLabel" alignment="CENTER" prefHeight="45.0" prefWidth="344.0" text="Label">
+               <font>
+                  <Font size="37.0" />
+               </font>
+            </Label>
+            <MediaView fx:id="mv" fitHeight="300.0" fitWidth="200.0" />
+         </children>
+         <padding>
+            <Insets bottom="40.0" top="40.0" />
+         </padding>
+      </VBox>
+   </center>
+   <bottom>
+      <VBox alignment="CENTER" prefHeight="393.0" prefWidth="1920.0" spacing="20.0" style="-fx-background-color: #b3e5fc; -fx-border-color: #000000;" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="videoButton" mnemonicParsing="false" onAction="#playVideo" prefHeight="50.0" prefWidth="100.0" text="Play Video" />
+            <Label fx:id="exerciseTitle" text="ExerciseTitle">
+               <font>
+                  <Font size="40.0" />
+               </font></Label>
+            <Label fx:id="timer" alignment="CENTER" prefHeight="58.0" prefWidth="157.0" text="Timer">
+               <font>
+                  <Font size="40.0" />
+               </font></Label>
+            <Button fx:id="startStop" mnemonicParsing="false" onAction="#startTime" prefHeight="50.0" prefWidth="100.0" text="Start Workout" />
+            <Button mnemonicParsing="false" onAction="#goBackHome" prefHeight="50.0" prefWidth="100.0" text="Quit Workout" />
+         </children>
+      </VBox>
+   </bottom>
+   <left>
+      <HBox alignment="CENTER_LEFT" prefHeight="547.0" prefWidth="400.0" style="-fx-background-color: #b3e5fc; -fx-border-color: #000000;" BorderPane.alignment="CENTER">
+         <children>
+            <VBox prefHeight="199.0" prefWidth="135.0" spacing="50.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#26bf42" height="24.0" stroke="BLACK" strokeType="INSIDE" width="75.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c3da15" height="24.0" stroke="BLACK" strokeType="INSIDE" width="75.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bc3838" height="24.0" stroke="BLACK" strokeType="INSIDE" width="75.0" />
+               </children>
+               <padding>
+                  <Insets bottom="20.0" left="50.0" top="20.0" />
+               </padding>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </VBox>
+            <VBox prefHeight="199.0" prefWidth="169.0" spacing="60.0">
+               <padding>
+                  <Insets bottom="20.0" top="20.0" />
+               </padding>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <children>
+                  <Label text="- Current Exercise" />
+                  <Label text="- Rest Period" />
+                  <Label text="- Workout Paused" />
+               </children>
+            </VBox>
+         </children>
+         <padding>
+            <Insets top="120.0" />
+         </padding>
+      </HBox>
+   </left>
+   <right>
+      <HBox prefHeight="547.0" prefWidth="401.0" style="-fx-background-color: #b3e5fc; -fx-border-color: #000000;" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="exerciseDescription" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="547.0" prefWidth="394.0" text="Description" textOverrun="CLIP">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <padding>
+                  <Insets left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </Label>
+         </children>
+      </HBox>
+   </right>
+</BorderPane>

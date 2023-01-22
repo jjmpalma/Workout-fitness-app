@@ -1,0 +1,50 @@
+CS22120 Project: Group 10
+
+Meeting: Weekly project meeting - Tutorial 10
+Persons present:
+
+Shipman, Richard    rcs 
+Clive, Alexander	alc72
+Duda, Piotr	pid8
+Ladds, Isaac	isl7
+Szpak, Bartosz Tomasz	bas22
+Griffith, Keean	keg21
+Palma Arroyo, Juan Manuel	jmp16
+Lugg, Joshua	jol66
+
+Absent:
+Kalyanaraman, Tarunsundar	tak17
+
+Apologies:
+Lugg, Joshua	jol66
+
+Date and Place of meeting: 22nd Apr 2021 discord
+
+Circulation list: All group members, plus project manager
+Author: Piotr Duda
+Date of minutes: 22nd Apr 2021
+Version: 1.0
+
+Matters arising
+===============
+
+1.Testing team meeting 16th Apr 12pm.
+ACTION: alc7, keg21, jol66, jmp16
+STATUS: Completed
+
+2. Coding team meeting 16th Apr 1pm.
+ACTION: bas22, ahz1, tak17
+STATUS: Completed
+
+New Business
+============
+
+3. Preparatory meetings for integration week on Friday 3pm, Saturday and Sunday 12pm - 4pm
+ACTION: EVERYONE
+
+4. Integration week schedule:
+	10:30 - Morning Meeting
+	14:00 - Lunch break
+	14:30 - Midday meeting
+	19:00 - Final meeting
+ACTION: EVERYONE

@@ -1,0 +1,47 @@
+CS22120 Project: Group 10
+
+Meeting: Weekly project meeting - Tutorial 9
+Persons present:
+
+Shipman, Richard    rcs 
+Clive, Alexander	alc72
+Duda, Piotr	pid8
+Ladds, Isaac	isl7
+Szpak, Bartosz Tomasz	bas22
+Griffith, Keean	keg21
+Palma Arroyo, Juan Manuel	jmp16
+Kalyanaraman, Tarunsundar	tak17
+Lugg, Joshua	jol66
+
+Absent:
+Zitoun, Ahmed	ahz1
+
+Apologies:
+None
+
+Date and Place of meeting: 15th Apr 2021 discord
+
+Circulation list: All group members, plus project manager
+Author: Piotr Duda
+Date of minutes: 15th Apr 2021
+Version: 1.0
+
+Matters arising
+===============
+
+None, first meeting after Easter break.
+
+New Business
+============
+
+1. Testing team - Bartek - lead, Ahmed, Tarun.
+ACTION: bas22, ahz1, tak17
+
+2. Coding team - Alex - lead, Keean, Josh, Juan.
+ACTION: alc7, keg21, jol66, jmp16
+
+3. Testing team meeting 16th Apr 12pm.
+ACTION: alc7, keg21, jol66, jmp16
+
+4. Coding team meeting 16th Apr 1pm.
+ACTION: bas22, ahz1, tak17

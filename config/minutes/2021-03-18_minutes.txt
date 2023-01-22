@@ -1,0 +1,61 @@
+CS22120 Project: Group 10
+
+Meeting: Weekly project meeting - Tutorial 8
+Persons present:
+
+Shipman, Richard    rcs 
+Clive, Alexander	alc72
+Duda, Piotr	pid8
+Griffith, Keean	keg21
+Ladds, Isaac	isl7
+Lugg, Joshua	jol66
+Szpak, Bartosz Tomasz	bas22
+Zitoun, Ahmed	ahz1
+Kalyanaraman, Tarunsundar	tak17
+Palma Arroyo, Juan Manuel	jmp16
+
+Date and Place of meeting: 18th Mar 2021 discord
+
+Circulation list: All group members, plus project manager
+Author: Piotr Duda
+Date of minutes: 18th Feb 2021
+Version: 1.0
+
+Matters arising
+===============
+
+1. Isaac will rise issues for test and design spec. Table mapping requirements onto classes
+ACTION: isl7
+STATUS: Completed
+
+2. Josh will write pseudocode for JavaFX interface.
+ACTION: jol66
+STATUS: Ongoing
+
+3. Keean will write out descriptions for exercises.
+ACTION: keg21
+STATUS: Ongoing
+
+4. Ahmed and Bartek will make corrections on test spec.
+ACTION: ahz1, bas22
+STATUS: Completed
+
+5. Piotr will make corrections in the minutes.
+ACTION: pid8
+STATUS: Completed
+
+6. Design spec meeting 16:00 12 Mar, Research Component Diagrams.
+ACTION: Everyone
+STATUS: Completed
+
+New Business
+============
+
+7. Isaac will mail to Chris for a extra week to finish the design spec.
+ACTION: isl7
+
+8. Corrections and additions to make in design spec.
+ACTION: Everyone
+
+9. Design spec review meeting - 19.03.21 4pm.
+ACTION: Everyone 

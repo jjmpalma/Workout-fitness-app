@@ -1,0 +1,75 @@
+CS22120 Project: Group 10
+
+Meeting: Weekly project meeting
+Persons present:
+
+Shipman, Richard    rcs 
+Clive, Alexander	alc72
+Duda, Piotr	pid8
+Griffith, Keean	keg21
+Ladds, Isaac	isl7
+Lugg, Joshua	jol66
+Szpak, Bartosz Tomasz	bas22
+Zitoun, Ahmed	ahz1
+Kalyanaraman, Tarunsundar	tak17
+Palma Arroyo, Juan Manuel	jmp16
+
+Date and Place of meeting: 18th Feb 2021 discord
+
+Circulation list: All group members, plus project manager
+Author: Piotr Duda
+Date of minutes: 18th Feb 2021
+Version: 1.0
+
+Matters arising
+===============
+
+1. Piotr will set up GitLab repository.
+ACTION: pid8
+STATUS: Completed
+
+2. Ahmed and Bartek will work on testing requirements.
+ACTION: bas22, ahz1
+STATUS: Completed
+
+3. Isaac, Josh and Alex will work on javafx.
+ACTION: isl7, jol66, alc72
+STATUS: Ongoing
+
+4. Keean and Tarunsadar will work on UI Spec slides and exercise demonstration.
+ACTION: keg21, tak17 
+STATUS: Completed
+
+5. Keean and Juan will start on desgin spec.
+ACTION: keg21, jmp16
+STATUS: Completed
+
+6. Alex with work on filling out XML with exercises.
+ACTION: alc72
+STATUS: Ongoing
+
+7. Alex, Isaac and Josh will meet on Sunday 14th Feb at 14:00 and talk about how timers, javafx and data storage will work together.
+ACTION: alc72, isl7, jol66
+STATUS: Completed
+
+
+New Business
+============
+
+8. Piotr will complie a list of project deliverables on GitLab
+ACTION: pid8
+
+9. Review UI meeting on Friday 19th Feb at 12 o'clock.
+ACTION: pid8, isl7, keg21, tak17
+
+10. Uploading files to GitLab repository.
+ACTION: EVERYONE
+
+11. Keean and Juan will work on design specification.
+ACTION: keg21, jmp16
+
+12. Isaac, Alex, Josh and Juan will meet on Tuesday 23rd Feb at 15 o'clock to fit code and class diagram all together.
+ACTION: isl7, alc72, jol66, jmp16
+
+
+

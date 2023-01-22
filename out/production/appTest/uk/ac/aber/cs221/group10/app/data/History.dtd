@@ -1,0 +1,16 @@
+<!DOCTYPE history [
+        <!ELEMENT history (month)>
+        <!ELEMENT month (record)+>
+        <!ATTLIST month month CDATA #REQUIRED>
+        <!ATTLIST month year CDATA #REQUIRED>
+
+        <!ELEMENT record (exerciseName+)>
+        <!ATTLIST record day CDATA #REQUIRED>
+        <!ATTLIST record intensity CDATA #REQUIRED>
+        <!ATTLIST record quantity CDATA #REQUIRED>
+        <!ATTLIST record work CDATA #REQUIRED>
+        <!ATTLIST record rest CDATA #REQUIRED>
+        <!ATTLIST record midrest CDATA #REQUIRED>
+
+        <!ELEMENT exerciseName (#PCDATA)>
+        ]>

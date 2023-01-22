@@ -1,0 +1,75 @@
+CS22120 Project: Group 10
+
+Meeting: Weekly project meeting
+Persons present:
+
+Shipman, Richard    rcs 
+Clive, Alexander	alc72
+Duda, Piotr	pid8
+Griffith, Keean	keg21
+Ladds, Isaac	isl7
+Lugg, Joshua	jol66
+Szpak, Bartosz Tomasz	bas22
+Zitoun, Ahmed	ahz1
+
+
+Absent:
+Kalyanaraman, Tarunsundar	tak17
+Palma Arroyo, Juan Manuel	jmp16
+
+
+Apologies: None
+Date and Place of meeting: 28th Jan 2021 discord
+
+Circulation list: All group members, plus project manager
+Author: Richard Shipman
+Date of minutes: 28th Jan 2021
+Version: 1.1
+
+
+Matters Arising
+===============
+
+None, first group meeting
+
+New Business
+============
+
+1. Membership of group
+
+Clive, Alexander	alc72
+Duda, Piotr	pid8
+Griffith, Keean	keg21
+Kalyanaraman, Tarunsundar	tak17
+Ladds, Isaac	isl7
+Lugg, Joshua	jol66
+Palma Arroyo, Juan Manuel	jmp16
+Szpak, Bartosz Tomasz	bas22
+Zitoun, Ahmed	ahz1
+
+Manager: Richard Shipman, email: rcs@aber.ac.uk
+
+2. Setting up the project arrangements
+
+3.1 All group members need to read the Project requirements and Group Intro documents by next week and know about what the project will do. ACTION: Everyone
+
+3.2 All group members to set up a personal blog TODAY and put a link to their blog in the discord text channel. We suggested that a document in Google Drive might be the easiest way to make a blog.  ACTION: Everyone
+Richard Shipman will make those items into a clickable list that can be pinned to the group.  ACTION: rcs
+
+4. Initial Tasks
+
+4.1 Keean and Tarunsundar will read SE.QA.04 and start work on material for the user interface document. They will also start putting together some possible screens in Powerpoint. ACTION: keg21, tak17
+
+4.2 Bartek and Ahmed will read SE.QA.06 and start drafting a list of repeatable tests.  They will sketch some tests for functional requirements (Bartek for FR1, FR2, FR3, Ahmed for FR4, FR5, FR6) from the Requirements specification.  ACTION:  bas22,ahz1
+
+4.3 Alex , Isaac and Joshua will start looking at the technical issues of the project. Joshua will use JavaFX to make some example screens for the application. Isaac will investigate the use of timers to show a clock counting down. 
+Alex will investigate the options for saving Java objects to persistent storage and tell us next week what the choices are.  ACTION: alc72, isl7, jol66
+
+4.5 Piotr and Juan will look at documents SE.QA01, SE.QA.02, SE.QA.03 before next week and come along ready to summarise them in 5 minutes for the group. ACTION: pid8, jmp16
+
+5. Future plans
+
+The meeting decided to have a meeting at 2pm Tuesday 2nd Feb, to work through the Gitlab practical. All members need to attend. 
+ACTION: Everyone.
+
+Next meeting:  15:00 4th Feb 2021, discord.  All to attend
